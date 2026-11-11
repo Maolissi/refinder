@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f8f6f3">
+<meta name="description" content="Your Refinder screening workspace.">
+<title>Workspace — Refinder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="workspace-page">
+<div class="workspace-shell">
+<aside class="workspace-sidebar">
+  <a class="workspace-brand" href="index.html"><img src="assets/refinder-logo.svg" alt="Refinder"></a>
+  <div class="workspace-label">WORKSPACE</div>
+  <nav class="workspace-nav" aria-label="Main navigation">
+    <a class="active" href="dashboard.html"><span class="nav-icon">▦</span> Overview</a>
+    <a href="candidate-reviews.html"><span class="nav-icon">◎</span> Candidate reviews</a>
+    <a href="upload-cv.html"><span class="nav-icon">＋</span> Upload CV</a>
+    <a href="history.html"><span class="nav-icon">◷</span> Review history</a>
+  </nav>
+  <div class="sidebar-bottom">
+    <div class="workspace-label">PREFERENCES</div>
+    <nav class="workspace-nav"><a href="settings.html"><span class="nav-icon">⚙</span> Settings</a><a href="subscription.html"><span class="nav-icon">◇</span> Subscription</a></nav>
+    <div class="sidebar-user"><div class="user-avatar">JD</div><div class="sidebar-user-meta"><b>Jordan Davis</b><small>Personal workspace</small></div><span class="user-menu">•••</span></div>
+  </div>
+</aside>
+<main class="workspace-main">
+<header class="workspace-topbar">
+  <div><span class="topbar-path">Workspace</span><span class="topbar-sep">/</span><b>Overview</b></div>
+  <div class="topbar-actions"><button class="icon-action" aria-label="Notifications">♧</button><div class="topbar-avatar">JD</div></div>
+</header>
+<div class="workspace-content">
+  <section class="workspace-welcome">
+    <div><div class="workspace-eyebrow"><span></span> YOUR SCREENING WORKSPACE</div><h1>Good morning, Jordan<span>.</span></h1><p>A clearer view starts with one candidate. Ready when you are.</p></div>
+    <a class="workspace-primary" href="upload-cv.html"><span>＋</span> Upload a CV <i>→</i></a>
+  </section>
+  <section class="workspace-stats" aria-label="Workspace summary">
+    <article class="workspace-stat"><div class="stat-top"><span>Candidate reviews</span><span class="stat-icon purple">◎</span></div><strong>0</strong><small>All-time reviews</small></article>
+    <article class="workspace-stat"><div class="stat-top"><span>Reviewed this month</span><span class="stat-icon coral">◷</span></div><strong>0</strong><small>Monthly activity</small></article>
+    <article class="workspace-stat"><div class="stat-top"><span>Saved profiles</span><span class="stat-icon green">◇</span></div><strong>0</strong><small>In your workspace</small></article>
+  </section>
+  <section class="workspace-main-grid">
+    <div class="workspace-panel recent-panel">
+      <div class="panel-heading"><div><h2>Recent reviews</h2><p>Your latest candidate screening activity.</p></div><a href="history.html">View history <span>→</span></a></div>
+      <div class="empty-reviews">
+        <div class="empty-illustration"><div class="empty-orbit"></div><div class="empty-file"><span>CV</span><i>＋</i><b></b><b></b><b></b></div><div class="empty-spark">✳</div></div>
+        <h3>Your first review starts here</h3>
+        <p>Upload a candidate's CV to get a structured overview of their experience, skills and role alignment.</p>
+        <a href="upload-cv.html" class="empty-link">Upload your first CV <span>→</span></a>
+      </div>
+    </div>
+    <aside class="workspace-side-column">
+      <div class="workspace-plan">
+        <div class="plan-card-top"><span>YOUR PLAN</span><span class="plan-status"><i></i> Active</span></div>
+        <div class="plan-name">Refinder <em>Monthly</em></div>
+        <div class="plan-price">€4.99 <span>/ month</span></div>
+        <p>One simple plan. Everything you need to bring structure to candidate screening.</p>
+        <a href="subscription.html">Manage subscription <span>→</span></a>
+      </div>
+      <div class="workspace-tip">
+        <div class="tip-icon">✳</div><div class="tip-kicker">A THOUGHTFUL START</div>
+        <h3>Look beyond the CV.</h3>
+        <p>Refinder helps you organise the information that matters, so every profile review has a clearer starting point.</p>
+      </div>
+    </aside>
+  </section>
+  <footer class="workspace-footer"><span>© 2026 Refinder</span><div><a href="index.html">Help centre</a><a href="index.html">Privacy</a><a href="index.html">Terms</a></div></footer>
+</div>
+</main>
+</div>
+</body></html>
