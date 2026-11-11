@@ -163,3 +163,36 @@
  .reset-form .reset-submit{height:50px;min-height:50px;font-size:12px}
  .reset-form-card .recovery-note{padding:11px 12px}
 }
+
+
+/* Refinder email verification page */
+.verify-layout{grid-template-columns:1fr 470px}
+.verify-aside h1{margin-bottom:20px}
+.verify-art-card{width:350px}
+.verify-envelope{position:relative;width:64px;height:47px;background:#f0e2fa;border:1px solid #d9c2e4;border-radius:8px;margin:22px 0 17px;display:grid;place-items:center;overflow:visible}
+.verify-envelope:before,.verify-envelope:after{content:"";position:absolute;top:0;width:34px;height:34px;background:#ead8f3;border-bottom:1px solid #d9c2e4}
+.verify-envelope:before{left:0;transform:skewY(31deg);transform-origin:top left;border-radius:7px 0 0 0}
+.verify-envelope:after{right:0;transform:skewY(-31deg);transform-origin:top right;border-radius:0 7px 0 0}
+.verify-envelope span{position:absolute;z-index:2;right:-8px;top:-9px;width:21px;height:21px;border-radius:50%;display:grid;place-items:center;background:#ff795f;color:white;font-size:12px;font-weight:800}
+.verify-art-title{font-size:24px;line-height:1.1;letter-spacing:-.06em;font-weight:800}
+.verify-art-copy{font-size:9px;line-height:1.6;color:#857a80;margin-top:9px;max-width:230px}
+.verify-form-card{padding:37px 39px 32px}
+.verify-icon{position:relative;width:58px;height:58px;border-radius:18px;background:#f0e2fa;color:#73538a;display:grid;place-items:center;font-size:25px;margin-bottom:20px}
+.verify-icon i{position:absolute;right:-5px;bottom:-4px;width:22px;height:22px;border-radius:50%;background:#ff795f;color:white;border:3px solid #fffdfa;display:grid;place-items:center;font-size:10px;font-style:normal;font-weight:800}
+.verify-form-card h2{font-size:29px;line-height:1.1}
+.verify-form-card .form-intro{line-height:1.65;margin-bottom:21px}
+.verify-email-display{display:flex;align-items:center;gap:12px;padding:14px;border:1px solid #e8e0df;border-radius:12px;background:#fffdfa}
+.email-mini-icon{width:35px;height:35px;flex:none;border-radius:10px;background:#f0e2fa;color:#73538a;display:grid;place-items:center;font-size:15px}
+.verify-email-display small{display:block;font-size:8px;letter-spacing:.1em;font-weight:800;color:#9a8e95;margin-bottom:5px}
+.verify-email-display b{font-size:12px;overflow-wrap:anywhere}
+.verify-instruction{font-size:11px;line-height:1.65;color:#756b70;margin:18px 0}
+.verify-expiry{display:flex;align-items:flex-start;gap:9px;padding:12px;border-radius:11px;background:#f7f1f8;color:#796b7b;margin-bottom:18px}
+.verify-expiry>span{width:16px;height:16px;flex:none;border:1px solid #b69ac1;border-radius:50%;display:grid;place-items:center;font-size:10px;font-weight:700}
+.verify-expiry p{font-size:9px;line-height:1.55;margin:0}
+.verify-resend{width:100%;border:0;cursor:pointer;justify-content:space-between;font-family:inherit}
+.verify-help{text-align:center;font-size:9px;line-height:1.6;color:#968a90;margin:15px 0 0}
+.verify-help a,.verify-switch a{font-weight:800;color:#73538a;text-decoration:underline;text-underline-offset:2px}
+.verify-divider{height:1px;background:#eee7e5;margin:20px 0 15px}
+.verify-switch{text-align:center;font-size:10px;color:#756b70;margin:0}
+.verify-switch a{margin-left:4px}
+@media(max-width:700px){.verify-layout{display:block}.verify-aside h1{font-size:43px}.verify-aside .aside-art{display:none}.verify-form-card{padding:27px 23px}.verify-form-card h2{font-size:26px}}
