@@ -142,3 +142,24 @@
 .password-guidance span{width:6px;height:6px;border-radius:50%;background:#ff795f}
 .reset-submit{width:100%;border:0;cursor:pointer;justify-content:space-between;font-family:inherit;margin-top:10px}
 @media(max-width:700px){.reset-layout{display:block}.reset-aside h1{font-size:43px}.reset-aside .aside-art{display:none}.reset-form-card{padding:26px 23px}.reset-form-card h2{font-size:26px}.reset-form>input{height:47px}}
+
+
+/* Reset form sizing and rhythm — responsive correction */
+.reset-form{display:flex!important;flex-direction:column!important;align-items:stretch;width:100%;gap:0}
+.reset-form>label{display:block;width:100%;font-size:11px;line-height:1.35;font-weight:700;margin:0 0 8px}
+.reset-form>input{display:block;width:100%;max-width:100%;min-width:0;height:48px;flex:none;margin:0 0 8px;padding:0 14px;font-size:12px;line-height:1.2}
+.reset-form .password-guidance{display:flex;align-items:center;width:100%;font-size:9px;line-height:1.4;margin:0 0 18px}
+.reset-form .reset-submit{display:flex;width:100%;min-height:54px;height:54px;margin:10px 0 0;padding:0 20px;font-size:13px;border-radius:13px}
+.reset-form-card{width:100%;max-width:470px;padding:34px 39px 32px}
+.reset-form-card h2{font-size:29px;line-height:1.12;max-width:100%;margin:12px 0 8px}
+.reset-form-card .form-intro{font-size:12px;line-height:1.6;margin:0 0 22px}
+.reset-form-card .recovery-note{width:100%;box-sizing:border-box}
+@media(max-width:700px){
+ .reset-form-card{max-width:none;padding:26px 23px}
+ .reset-form-card h2{font-size:25px;line-height:1.12}
+ .reset-form-card .form-intro{font-size:11px;line-height:1.55}
+ .reset-form>label{font-size:10px}
+ .reset-form>input{height:46px;font-size:12px}
+ .reset-form .reset-submit{height:50px;min-height:50px;font-size:12px}
+ .reset-form-card .recovery-note{padding:11px 12px}
+}
