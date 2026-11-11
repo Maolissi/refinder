@@ -92,3 +92,28 @@
 .login-switch{text-align:center;font-size:10px;color:#756b70;margin:20px 0 0}
 .login-switch a{color:#73538a;font-weight:800;margin-left:4px;text-decoration:underline;text-underline-offset:2px}
 @media(max-width:700px){.login-layout{display:block}.login-aside h1{font-size:43px}.login-aside .aside-art{display:none}.login-form-card{padding-top:29px;padding-bottom:27px}.login-form>input{height:47px;margin-bottom:18px}}
+
+
+/* Refinder password recovery page */
+.forgot-layout{grid-template-columns:1fr 470px}
+.forgot-aside h1{margin-bottom:20px}
+.recovery-art-card{width:350px}
+.recovery-icon{display:grid;place-items:center;width:43px;height:43px;border-radius:14px;background:#f0e2fa;color:#73538a;font-size:22px;margin:20px 0 13px}
+.recovery-art-title{font-size:24px;line-height:1.1;letter-spacing:-.06em;font-weight:800}
+.recovery-art-copy{font-size:9px;line-height:1.6;color:#857a80;margin-top:9px;max-width:230px}
+.forgot-form-card{padding:34px 39px 32px}
+.back-to-login{display:inline-block;color:#80628e;font-size:10px;font-weight:700;margin-bottom:24px}
+.recovery-symbol{width:43px;height:43px;border-radius:14px;background:#f0e2fa;color:#73538a;display:grid;place-items:center;font-size:22px;margin-bottom:18px}
+.forgot-form-card h2{font-size:29px;line-height:1.1;max-width:320px}
+.forgot-form{display:flex;flex-direction:column;margin-top:22px}
+.forgot-form>label{font-size:11px;font-weight:700;margin:0 0 8px}
+.forgot-form>input{height:49px;border:1px solid #e8e0df;border-radius:11px;background:#fffdfa;padding:0 14px;font:12px "DM Sans",Arial,sans-serif;color:#21131d;outline:none;margin-bottom:17px;transition:border-color .2s,box-shadow .2s}
+.forgot-form>input:focus{border-color:#92719f;box-shadow:0 0 0 3px #92719f18}
+.forgot-form>input::placeholder{color:#b0a5aa}
+.forgot-submit{width:100%;border:0;cursor:pointer;justify-content:space-between;font-family:inherit}
+.recovery-note{display:flex;gap:10px;padding:12px 13px;margin-top:19px;border-radius:11px;background:#f7f1f8;color:#796b7b}
+.recovery-note>span{flex:none;width:16px;height:16px;border:1px solid #b69ac1;border-radius:50%;display:grid;place-items:center;font-size:10px;font-weight:700}
+.recovery-note p{font-size:9px;line-height:1.55;margin:0}
+.forgot-switch{text-align:center;font-size:10px;color:#756b70;margin:22px 0 0}
+.forgot-switch a{color:#73538a;font-weight:800;margin-left:4px;text-decoration:underline;text-underline-offset:2px}
+@media(max-width:700px){.forgot-layout{display:block}.forgot-aside h1{font-size:43px}.forgot-aside .aside-art{display:none}.forgot-form-card{padding:26px 23px}.forgot-form-card h2{font-size:26px}.back-to-login{margin-bottom:20px}.forgot-form>input{height:47px}}
