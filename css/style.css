@@ -64,3 +64,31 @@
 .auth-nav-note a:hover{transform:translateY(-1px);background:#493348}
 .auth-nav-note a span{color:#e4cef1;margin:0;font-size:16px;line-height:1}
 @media(max-width:700px){.auth-nav-note{gap:8px;font-size:10px}.auth-nav-note a{padding:9px 12px;gap:8px;font-size:10px}}
+
+
+/* Refinder sign-in page */
+.login-layout{grid-template-columns:1fr 470px}
+.login-aside h1{margin-bottom:20px}
+.login-art-card{width:350px}
+.login-art-title{font-size:25px;line-height:1.08;letter-spacing:-.06em;font-weight:800;padding:21px 0 17px}
+.login-art-title br+*{color:#92719f}
+.login-art-metrics{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.login-art-metrics>div{position:relative;padding:12px 10px 12px 28px;border:1px solid #e8e0df;border-radius:11px}
+.login-art-metrics b{display:block;font-size:9px}
+.login-art-metrics small{display:block;font-size:8px;color:#8d8187;margin-top:4px}
+.metric-dot{position:absolute;left:10px;top:15px;width:8px;height:8px;border-radius:50%}
+.dot-lilac{background:#92719f}.dot-coral{background:#ff795f}
+.login-form-card{padding-top:43px;padding-bottom:39px}
+.login-form{display:flex;flex-direction:column}
+.login-form>label:not(.remember-check),.login-password-label label{font-size:11px;font-weight:700;margin:0 0 8px}
+.login-form>input{height:49px;border:1px solid #e8e0df;border-radius:11px;background:#fffdfa;padding:0 14px;font:12px "DM Sans",Arial,sans-serif;color:#21131d;outline:none;margin-bottom:21px;transition:border-color .2s,box-shadow .2s}
+.login-form>input:focus{border-color:#92719f;box-shadow:0 0 0 3px #92719f18}
+.login-form>input::placeholder{color:#b0a5aa}
+.login-password-label{display:flex;justify-content:space-between;align-items:center}
+.login-password-label a{font-size:10px;font-weight:700;color:#80628e;margin-bottom:8px}
+.remember-check{display:flex;align-items:center;gap:9px;font-size:10px;color:#756b70;margin:0 0 22px}
+.remember-check input{accent-color:#92719f;width:14px;height:14px;margin:0}
+.login-submit{width:100%;border:0;cursor:pointer;justify-content:space-between;font-family:inherit}
+.login-switch{text-align:center;font-size:10px;color:#756b70;margin:20px 0 0}
+.login-switch a{color:#73538a;font-weight:800;margin-left:4px;text-decoration:underline;text-underline-offset:2px}
+@media(max-width:700px){.login-layout{display:block}.login-aside h1{font-size:43px}.login-aside .aside-art{display:none}.login-form-card{padding-top:29px;padding-bottom:27px}.login-form>input{height:47px;margin-bottom:18px}}
