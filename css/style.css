@@ -56,3 +56,11 @@
 @media(max-width:900px){.auth-layout{grid-template-columns:1fr 430px;gap:35px}.auth-aside h1{font-size:57px}.art-card{width:320px}}
 @media(max-width:700px){.auth-header{height:70px}.auth-nav-note{font-size:10px}.auth-nav-note a{margin-left:4px}.auth-main{padding:27px 19px 35px;min-height:calc(100vh - 70px)}.auth-layout{display:block;max-width:460px}.auth-aside{min-height:0;padding:13px 0 23px}.auth-aside .eyebrow{font-size:8px}.auth-aside h1{font-size:43px;margin:16px 0 12px}.auth-aside>p{font-size:12px;line-height:1.6;max-width:390px}.aside-art{display:none}.aside-foot{display:none}.auth-form-card{padding:27px 23px;border-radius:19px}.auth-form-card h2{font-size:27px}.form-intro{margin-bottom:21px}.register-form>input{height:46px;margin-bottom:15px}.auth-bottom{font-size:8px}.mobile-signin{display:block;text-align:center;font-size:10px;color:#756b70;margin-top:19px}.mobile-signin a{font-weight:800;color:#73538a;margin-left:4px}}
 @media(max-width:380px){.auth-main{padding-inline:14px}.auth-form-card{padding:24px 18px}.auth-nav .brand{width:132px}.auth-nav-note{font-size:9px}}
+
+
+/* Registration header sign-in emphasis */
+.auth-nav-note{display:flex;align-items:center;gap:15px;font-size:13px;color:#756b70}
+.auth-nav-note a{display:inline-flex;align-items:center;gap:13px;margin:0;padding:11px 17px;border-radius:999px;background:#21131d;color:#fffdfa;font-size:12px;font-weight:800;box-shadow:0 8px 18px #21131d18;transition:transform .2s,background .2s}
+.auth-nav-note a:hover{transform:translateY(-1px);background:#493348}
+.auth-nav-note a span{color:#e4cef1;margin:0;font-size:16px;line-height:1}
+@media(max-width:700px){.auth-nav-note{gap:8px;font-size:10px}.auth-nav-note a{padding:9px 12px;gap:8px;font-size:10px}}
