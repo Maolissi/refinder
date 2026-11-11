@@ -117,3 +117,28 @@
 .forgot-switch{text-align:center;font-size:10px;color:#756b70;margin:22px 0 0}
 .forgot-switch a{color:#73538a;font-weight:800;margin-left:4px;text-decoration:underline;text-underline-offset:2px}
 @media(max-width:700px){.forgot-layout{display:block}.forgot-aside h1{font-size:43px}.forgot-aside .aside-art{display:none}.forgot-form-card{padding:26px 23px}.forgot-form-card h2{font-size:26px}.back-to-login{margin-bottom:20px}.forgot-form>input{height:47px}}
+
+
+/* Refinder password reset page */
+.reset-layout{grid-template-columns:1fr 470px}
+.reset-aside h1{margin-bottom:20px}
+.reset-art-card{width:350px}
+.lock-visual{width:58px;height:58px;border-radius:18px;background:#f0e2fa;position:relative;margin:20px 0 15px;display:grid;place-items:center}
+.lock-visual:before{content:"";position:absolute;width:19px;height:17px;border:3px solid #92719f;border-bottom:0;border-radius:12px 12px 0 0;top:10px}
+.lock-visual span{width:28px;height:22px;border-radius:6px;background:#92719f;position:absolute;bottom:10px}
+.lock-visual b{position:relative;z-index:1;color:white;font-size:12px;margin-top:7px}
+.reset-art-title{font-size:23px;line-height:1.1;letter-spacing:-.06em;font-weight:800}
+.security-bars{display:flex;gap:5px;margin-top:15px}
+.security-bars i{height:4px;flex:1;border-radius:5px;background:#92719f}
+.security-bars i:nth-child(4),.security-bars i:nth-child(5){background:#e8e0df}
+.reset-form-card{padding:34px 39px 32px}
+.reset-form-card h2{font-size:29px;line-height:1.1;max-width:330px}
+.reset-form{display:flex;flex-direction:column;margin-top:22px}
+.reset-form>label{font-size:11px;font-weight:700;margin:0 0 8px}
+.reset-form>input{height:49px;border:1px solid #e8e0df;border-radius:11px;background:#fffdfa;padding:0 14px;font:12px "DM Sans",Arial,sans-serif;color:#21131d;outline:none;margin-bottom:8px;transition:border-color .2s,box-shadow .2s}
+.reset-form>input:focus{border-color:#92719f;box-shadow:0 0 0 3px #92719f18}
+.reset-form>input::placeholder{color:#b0a5aa}
+.password-guidance{font-size:9px;color:#968a90;margin:0 0 19px;display:flex;align-items:center;gap:7px}
+.password-guidance span{width:6px;height:6px;border-radius:50%;background:#ff795f}
+.reset-submit{width:100%;border:0;cursor:pointer;justify-content:space-between;font-family:inherit;margin-top:10px}
+@media(max-width:700px){.reset-layout{display:block}.reset-aside h1{font-size:43px}.reset-aside .aside-art{display:none}.reset-form-card{padding:26px 23px}.reset-form-card h2{font-size:26px}.reset-form>input{height:47px}}
