@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f8f6f3">
+<meta name="description" content="Create your Refinder account.">
+<title>Create account — Refinder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="auth-page">
+<header class="auth-header">
+  <div class="wrap auth-nav">
+    <a class="brand" href="index.html" aria-label="Refinder home"><img src="assets/refinder-logo.svg" alt="Refinder"></a>
+    <div class="auth-nav-note">Already have an account? <a href="login.html">Sign in <span>↗</span></a></div>
+  </div>
+</header>
+<main class="auth-main">
+  <section class="auth-layout">
+    <div class="auth-aside">
+      <div class="eyebrow"><b></b> YOUR SCREENING WORKSPACE</div>
+      <h1>A clearer way<br>to <em>see potential.</em></h1>
+      <p>Bring structure to candidate screening. Create your account and keep every profile review in one focused place.</p>
+      <div class="aside-art" aria-hidden="true">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="art-shape shape-one"></div><div class="art-shape shape-two"></div>
+        <div class="art-card">
+          <div class="art-card-top"><span>PROFILE REVIEW</span><i>•••</i></div>
+          <div class="art-person"><span class="art-avatar">CV</span><div><b>Candidate profile</b><small>Structured overview</small></div></div>
+          <div class="art-line"><span></span><i></i></div>
+          <div class="art-row"><b>Experience</b><label>Reviewed</label></div>
+          <div class="art-row"><b>Role alignment</b><label>Ready to explore</label></div>
+          <div class="art-foot">A thoughtful starting point for every review</div>
+        </div>
+      </div>
+      <div class="aside-foot"><span>01</span> Less noise. More meaningful insight.</div>
+    </div>
+    <div class="auth-form-wrap">
+      <div class="auth-form-card">
+        <div class="form-kicker">GET STARTED</div>
+        <h2>Create your account</h2>
+        <p class="form-intro">Set up your Refinder workspace in just a few steps.</p>
+        <form class="register-form">
+          <label for="full-name">Full name</label>
+          <input id="full-name" name="name" type="text" placeholder="Your name" autocomplete="name" required>
+          <label for="email">Work email</label>
+          <input id="email" name="email" type="email" placeholder="you@company.com" autocomplete="email" required>
+          <div class="password-label"><label for="password">Password</label><span>At least 8 characters</span></div>
+          <input id="password" name="password" type="password" placeholder="Create a password" autocomplete="new-password" minlength="8" required>
+          <label for="confirm-password">Confirm password</label>
+          <input id="confirm-password" name="confirm-password" type="password" placeholder="Enter your password again" autocomplete="new-password" minlength="8" required>
+          <label class="terms-check"><input type="checkbox" required><span>I agree to the <a href="terms.html">Terms of Service</a> and <a href="privacy.html">Privacy Policy</a>.</span></label>
+          <button class="btn primary register-submit" type="submit">Create account <span>→</span></button>
+          <p class="form-legal">By creating an account, you confirm that the information provided is accurate.</p>
+        </form>
+        <div class="mobile-signin">Already have an account? <a href="login.html">Sign in</a></div>
+      </div>
+      <div class="auth-bottom"><a href="index.html">← Back to Refinder</a><span>© 2026 Refinder</span></div>
+    </div>
+  </section>
+</main>
+</body>
+</html>
