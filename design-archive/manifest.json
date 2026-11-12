@@ -1,0 +1,156 @@
+{
+  "archive": "Refinder Service Design Archive",
+  "created_at": "2026-11-12",
+  "source_repository": "Maolissi/refinder",
+  "source_branch": "main",
+  "archive_branch": "design-archive-2026-11-12",
+  "directories": [
+    "pages/recruiter",
+    "pages/admin",
+    "pages/payments",
+    "assets",
+    "css",
+    "js"
+  ],
+  "counts": {
+    "recruiter": 19,
+    "admin": 7,
+    "payments": 7,
+    "total_html_pages": 33
+  },
+  "approval_policy": "Explicit approval is recorded only where supported by project history; inclusion does not imply approval.",
+  "pages": [
+    {
+      "path": "pages/recruiter/index.html",
+      "status": "approval_not_confirmed"
+    },
+    {
+      "path": "pages/recruiter/registration.html",
+      "status": "approval_not_confirmed"
+    },
+    {
+      "path": "pages/recruiter/login.html",
+      "status": "approval_not_confirmed"
+    },
+    {
+      "path": "pages/recruiter/forgot-password.html",
+      "status": "approval_not_confirmed"
+    },
+    {
+      "path": "pages/recruiter/reset-password.html",
+      "status": "approval_not_confirmed"
+    },
+    {
+      "path": "pages/recruiter/email-verification.html",
+      "status": "approval_not_confirmed"
+    },
+    {
+      "path": "pages/recruiter/dashboard.html",
+      "status": "confirmed_after_correction"
+    },
+    {
+      "path": "pages/recruiter/vacancies.html",
+      "status": "approval_not_confirmed"
+    },
+    {
+      "path": "pages/recruiter/vacancy-create.html",
+      "status": "approval_not_confirmed"
+    },
+    {
+      "path": "pages/recruiter/vacancy-details.html",
+      "status": "approval_not_confirmed"
+    },
+    {
+      "path": "pages/recruiter/candidate-profile.html",
+      "status": "approval_not_confirmed"
+    },
+    {
+      "path": "pages/recruiter/screening-result.html",
+      "status": "approval_not_confirmed"
+    },
+    {
+      "path": "pages/recruiter/candidate-comparison.html",
+      "status": "approval_not_confirmed"
+    },
+    {
+      "path": "pages/recruiter/cv-upload.html",
+      "status": "approved"
+    },
+    {
+      "path": "pages/recruiter/screening-results.html",
+      "status": "approval_not_confirmed"
+    },
+    {
+      "path": "pages/recruiter/candidates.html",
+      "status": "approval_not_confirmed"
+    },
+    {
+      "path": "pages/recruiter/analytics.html",
+      "status": "approval_not_confirmed"
+    },
+    {
+      "path": "pages/recruiter/settings.html",
+      "status": "approval_not_confirmed"
+    },
+    {
+      "path": "pages/recruiter/notifications.html",
+      "status": "approval_not_confirmed"
+    },
+    {
+      "path": "pages/admin/admin-dashboard.html",
+      "status": "visual_approval_pending"
+    },
+    {
+      "path": "pages/admin/admin-users.html",
+      "status": "approval_not_confirmed"
+    },
+    {
+      "path": "pages/admin/admin-billing.html",
+      "status": "approval_not_confirmed"
+    },
+    {
+      "path": "pages/admin/admin-screening.html",
+      "status": "approval_not_confirmed"
+    },
+    {
+      "path": "pages/admin/admin-events.html",
+      "status": "approval_not_confirmed"
+    },
+    {
+      "path": "pages/admin/admin-audit.html",
+      "status": "approval_not_confirmed"
+    },
+    {
+      "path": "pages/admin/admin-settings.html",
+      "status": "approval_not_confirmed"
+    },
+    {
+      "path": "pages/payments/subscription.html",
+      "status": "prototype_visual_approval_not_confirmed"
+    },
+    {
+      "path": "pages/payments/checkout.html",
+      "status": "prototype_visual_approval_not_confirmed"
+    },
+    {
+      "path": "pages/payments/payment-processing.html",
+      "status": "prototype_visual_approval_not_confirmed"
+    },
+    {
+      "path": "pages/payments/payment-success.html",
+      "status": "prototype_visual_approval_not_confirmed"
+    },
+    {
+      "path": "pages/payments/payment-failed.html",
+      "status": "prototype_visual_approval_not_confirmed"
+    },
+    {
+      "path": "pages/payments/subscription-manage.html",
+      "status": "prototype_visual_approval_not_confirmed"
+    },
+    {
+      "path": "pages/payments/payment-history.html",
+      "status": "prototype_visual_approval_not_confirmed"
+    }
+  ]
+}
